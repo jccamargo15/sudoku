@@ -1,0 +1,7 @@
+body {
+  font-family: "Potta One", cursive;
+  /* height: 100vh; */
+  background-color: var(--bg-body);
+  overflow-x: hidden;
+  user-select: none;
+}
