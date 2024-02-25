@@ -67,3 +67,27 @@ ul {
   list-style-type: none;
 }
 
+nav {
+  background-color: var(--bg-body);
+  color: var(--color-txt);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 5px 2px var(--bg-main);
+  z-index: 99;
+}
+
+.nav-container {
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  height: var(--nav-size);
+}
+
+.nav-logo {
+  font-size: var(--font-size-lg);
+  color: var(--blue);
+}
